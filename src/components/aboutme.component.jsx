@@ -35,7 +35,7 @@ export const AboutMeComponent = (props) => {
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; startDate: "June 2018"<br /><br />
                     </span>
 							&gt; Jyotikanta.resume<br />
-                    <span className="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" rel="noopener" href="//mycv.techknocker.xyz">Jyotikanta_Resume</a>"<br /><br /></span>
+                    <span className="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" rel="noopener noreferrer" href="//mycv.techknocker.xyz">Jyotikanta_Resume</a>"<br /><br /></span>
                     {/* &gt; Jyotikanta.thoughts<br />
                                 <span className="answer">
                                     &nbsp;&nbsp;=&gt; ["<a target="_blank" href="http://www.twitter.com/Jyotikantanakano">@Jyotikantanakano</a>",
@@ -44,7 +44,7 @@ export const AboutMeComponent = (props) => {
                                 </span> */}
 
 							&gt; Jyotikanta.email<br />
-                    <span className="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" rel="noopener" href="mailto:sanjay.row.com@gmail.com">sanjay.row.com@gmail.com</a>"<br /><br /></span>
+                    <span className="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" rel="noopener noreferrer" href="mailto:sanjay.row.com@gmail.com">sanjay.row.com@gmail.com</a>"<br /><br /></span>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Row, Col } from 'antd';
+import { Card, Col } from 'antd';
 
 export const Project = (props) => {
 
@@ -25,8 +25,8 @@ export const Project = (props) => {
                                 <Card title="SpaceXData" bordered={false} >
                                     <div style={{ height: 100, overflow: 'auto' }}>A project demonstrating React with Ant UI. Showing Payload And History Data of SpaceX Rocket Launches.</div> <br />
                                     <div style={{ bottom: 0 }}>
-                                        <div className="float-right"><a href="https://sameer951.github.io/spaceXData/" target="_blank" rel="noopener"> View Live</a></div>
-                                        <div className="float-left"> <a href="https://github.com/sameer951/spaceXData" target="_blank" rel="noopener"> Git Link</a></div>
+                                        <div className="float-right"><a href="https://sameer951.github.io/spaceXData/" target="_blank" rel="noopener noreferrer"> View Live</a></div>
+                                        <div className="float-left"> <a href="https://github.com/sameer951/spaceXData" target="_blank" rel="noopener noreferrer"> Git Link</a></div>
                                     </div>
                                 </Card>
                             </Col>
@@ -36,8 +36,8 @@ export const Project = (props) => {
                                 <Card title="Mario Game" bordered={false}>
                                     <div style={{ height: 100, overflow: 'auto' }}>A project demonstrating With pure Javascript And React Based Game. Which Will Count Your Steps To clear All Mushrooms.</div> <br />
                                     <div style={{ bottom: 0 }}>
-                                        <div className="float-right"><a href="https://sameer951.github.io/mario-game/#" target="_blank" rel="noopener"> View Live</a></div>
-                                        <div className="float-left"> <a href="https://github.com/sameer951/mario-game" target="_blank" rel="noopener"> Git Link</a></div>
+                                        <div className="float-right"><a href="https://sameer951.github.io/mario-game/#" target="_blank" rel="noopener noreferrer"> View Live</a></div>
+                                        <div className="float-left"> <a href="https://github.com/sameer951/mario-game" target="_blank" rel="noopener noreferrer"> Git Link</a></div>
                                     </div>
                                 </Card>
                             </Col>
@@ -47,8 +47,8 @@ export const Project = (props) => {
                                 <Card title="Todo - App" bordered={false}>
                                     <div style={{ height: 100, overflow: 'auto' }}>A project demonstrating Pure Javascript based Application, Where you can note something todo and after complete can mark as completed that task.</div> <br />
                                     <div style={{ bottom: 0 }}>
-                                        <div className="float-right"><a href="https://sameer951.github.io/to-do/" target="_blank" rel="noopener"> View Live</a></div>
-                                        <div className="float-left"> <a href="https://github.com/sameer951/to-do" target="_blank" rel="noopener"> Git Link</a></div>
+                                        <div className="float-right"><a href="https://sameer951.github.io/to-do/" target="_blank" rel="noopener noreferrer"> View Live</a></div>
+                                        <div className="float-left"> <a href="https://github.com/sameer951/to-do" target="_blank" rel="noopener noreferrer"> Git Link</a></div>
                                     </div>
                                 </Card>
                             </Col>
@@ -58,8 +58,8 @@ export const Project = (props) => {
                                 <Card title="Recipe Search App" bordered={false}>
                                     <div style={{ height: 100, overflow: 'auto' }}>A project demonstrating React with Bootstrap. Here we can search some Recipe And View Details Of That Recipe.</div> <br />
                                     <div style={{ bottom: 0 }}>
-                                        <div className="float-right"><a href="https://sameer951.github.io/recipe_search/#/home" target="_blank" rel="noopener"> View Live</a></div>
-                                        <div className="float-left"> <a href="https://github.com/sameer951/recipe_search" target="_blank" rel="noopener"> Git Link</a></div>
+                                        <div className="float-right"><a href="https://sameer951.github.io/recipe_search/#/home" target="_blank" rel="noopener noreferrer"> View Live</a></div>
+                                        <div className="float-left"> <a href="https://github.com/sameer951/recipe_search" target="_blank" rel="noopener noreferrer"> Git Link</a></div>
                                     </div>
                                 </Card>
                             </Col>
