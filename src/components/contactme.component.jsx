@@ -45,7 +45,8 @@ export const ContactPage = (props) => {
             </section>
             <div className="section-content text-center row" style={{ marginRight: 0 }}>
                 <h3 className="col-12"> Get In Touch</h3>
-                <p className="col-12">  Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                <p className="col-12">  my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                {/* Although I'm not currently looking for any new opportunities, */}
                 </p>
                 <div className="col-sm-12 col-md-3 col-lg-3"></div>
                 <div className="form-group col-sm-12 col-md-6 col-lg-6">
