@@ -34,30 +34,31 @@ export const ContactPage = (props) => {
         <hr />
         <div className="contactme" id="contactme" style={{ minHeight: "80vh" }}>
             <section id="skills" className="section-alt">
-                {/* <div className="container"> */}
-                {/* <div className="row text-center"> */}
-                {/* <div className="col-full"> */}
-                <h2 className="section-title">LET'S GET IN TOUCH</h2>
-                <div className="centered line"></div>
-                {/* </div> */}
-                {/* </div>s */}
-                {/* </div> */}
+                <div className="container">
+                    <div className="row text-center">
+                        <div className="col-full">
+                            <h2 className="section-title">LET'S GET IN TOUCH</h2>
+                            <div className="centered line"></div>
+                        </div>
+                    </div>
+                </div>
             </section>
-            {/* <div className="section-content text-center ">
-                <h3> Get In Touch</h3>
-                <p>  Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            <div className="section-content text-center row" style={{ marginRight: 0 }}>
+                <h3 className="col-12"> Get In Touch</h3>
+                <p className="col-12">  Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
                 </p>
-                <div className="form-group">
+                <div className="col-sm-12 col-md-3 col-lg-3"></div>
+                <div className="form-group col-sm-12 col-md-6 col-lg-6">
                     <label htmlFor="comment">Thank You</label>
-                    <input type="text" value={name} onChange={(e) => setName(e.target.value)} className="form-control" /> <br />
-                    <textarea className="form-control" rows="5" id="comment" value={msg} onChange={(e) => setMsg(e.target.value)}></textarea>
+                    <input type="text" value={name} onChange={(e) => setName(e.target.value)} className="form-control" placeholder="Your Email ID" /> <br />
+                    <textarea className="form-control" rows="5" id="comment" value={msg} onChange={(e) => setMsg(e.target.value)} placeholder="Type Your Message Here"></textarea>
                 </div>
                 <div className="col-full">
                     <button className="button button-medium button-submit ladda-button btn-danger btn"
                         data-style="expand-right" id="submit-contact" onClick={sendMail.bind(this)}>Send</button>
                 </div>
 
-            </div> */}
+            </div>
         </div>
     </React.Fragment>)
 };

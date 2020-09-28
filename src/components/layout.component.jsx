@@ -16,14 +16,14 @@ const mainMenuLists = [
 export const LayoutComponent = (props) => {
     const breadcrum = <Breadcrumb></Breadcrumb>;
     return (<Layout theam={'dark'}>
-        <Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
+        {/* <Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
             <div className="logo" />
             <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']}>
                 {mainMenuLists.map((menu, mi) => (<Menu.Item key={mi + 1}>{menu.label}</Menu.Item>))}
             </Menu>
-        </Header>
-        <Content className="site-layout" style={{ marginTop: 64, minHeight: "78vh" }}>
-
+        </Header> */}
+        <Content className="site-layout" style={{ minHeight: "90vh" }}>
+            {/* marginTop: 64,  */}
             <div className="site-layout-background" style={{ minHeight: 380 }}>
                 {props.children}
             </div>

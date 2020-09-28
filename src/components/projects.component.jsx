@@ -37,7 +37,7 @@ export const Project = (props) => {
                                     <div style={{ height: 100, overflow: 'auto' }}>A project demonstrating With pure Javascript And React Based Game. Which Will Count Your Steps To clear All Mushrooms.</div> <br />
                                     <div style={{ bottom: 0 }}>
                                         <div className="float-right"><a href="https://sameer951.github.io/mario-game/#" target="_blank" rel="noopener"> View Live</a></div>
-                                        <div className="float-left"> <a href="https://github.com/sameer951/mario-game/settings" target="_blank" rel="noopener"> Git Link</a></div>
+                                        <div className="float-left"> <a href="https://github.com/sameer951/mario-game" target="_blank" rel="noopener"> Git Link</a></div>
                                     </div>
                                 </Card>
                             </Col>
@@ -58,8 +58,8 @@ export const Project = (props) => {
                                 <Card title="Recipe Search App" bordered={false}>
                                     <div style={{ height: 100, overflow: 'auto' }}>A project demonstrating React with Bootstrap. Here we can search some Recipe And View Details Of That Recipe.</div> <br />
                                     <div style={{ bottom: 0 }}>
-                                        <div className="float-right"><a href="https://sameer951.github.io/spaceXData/" target="_blank" rel="noopener"> View Live</a></div>
-                                        <div className="float-left"> <a href="https://github.com/sameer951/spaceXData" target="_blank" rel="noopener"> Git Link</a></div>
+                                        <div className="float-right"><a href="https://sameer951.github.io/recipe_search/#/home" target="_blank" rel="noopener"> View Live</a></div>
+                                        <div className="float-left"> <a href="https://github.com/sameer951/recipe_search" target="_blank" rel="noopener"> Git Link</a></div>
                                     </div>
                                 </Card>
                             </Col>
